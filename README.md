@@ -16,9 +16,7 @@ KELOMPOK 7
 Temperature Converter
 ---
 ## 3. Project Description
-This program is a simple game in which the player must guess a number
-determined by the computer.
----
+The Temperature Converter is a mini application designed to convert temperature values between different measurement scales — Celsius, Fahrenheit, and Kelvin. The program allows users to input a temperature value along with its original unit, then automatically calculates and displays the equivalent value in the other unit(s) selected. This project demonstrates the practical application of basic programming concepts such as input handling, arithmetic operations, conditional logic, and (if applicable) simple user interface design. It serves as an introductory exercise in building functional, real-world tools using fundamental programming skills.
 ## 4. Objectives
 This project is designed to apply the following programming concepts:
 - Variables
@@ -31,8 +29,9 @@ This project is designed to apply the following programming concepts:
 ---
 ## 5. Input
 The program receives:
-- The player's guess
-- The number of attempts
+- The temperature value input by the user
+- The original unit (Celsius, Fahrenheit, or Kelvin)
+- The target unit for conversion
 ---
 ## 6. Process
 The program compares the player's guess with the target number.
