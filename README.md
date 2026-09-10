@@ -1,4 +1,4 @@
-KELOMPOK 7
+[Pseudecode.txt](https://github.com/user-attachments/files/32040155/Pseudecode.txt)KELOMPOK 7
 # Mini Programming Project
 ## 1. Group Information
 **Class:** A
@@ -17,6 +17,7 @@ Simple Calculator with Menu
 ---
 ## 3. Project Description
 Simple Calculator with Menu is a simple calculator program that allows users to perform basic mathematical operations, namely addition, subtraction, multiplication, and division. This program displays an operation option menu, then asks the user to enter two numbers to be calculated according to the selected operation. The program will continue to run repeatedly (looping) until the user selects the Exit option to exit. This project also implements error handling (error handling) especially for the case of division by zero, so that the program does not stop suddenly (crash) when the error occurs. Through this project, programming concepts such as switch structure, arithmetic operator, branching (if), and looping are applied directly in a functional program.
+---
 ## 4. Objectives
 This project is designed to apply the following programming concepts:
 - Variables
@@ -50,6 +51,56 @@ The program displays:
 ## 8. Algorithm
 The algorithm used in the program is described in:
 `pseudocode.txt`
+[START
+    LOOP
+        DISPLAY "===== CALCULATOR MENU ====="
+        DISPLAY "1. Addition"
+        DISPLAY "2. Subtraction"
+        DISPLAY "3. Multiplication"
+        DISPLAY "4. Division"
+        DISPLAY "5. Exit"
+        DISPLAY "Enter your choice: "
+        INPUT choice
+
+        IF choice == 5 THEN
+            DISPLAY "Exiting program..."
+            BREAK
+        END IF
+
+        IF choice < 1 OR choice > 5 THEN
+            DISPLAY "Invalid choice, please try again."
+            CONTINUE
+        END IF
+
+        DISPLAY "Enter first number: "
+        INPUT num1
+        DISPLAY "Enter second number: "
+        INPUT num2
+
+        SWITCH choice
+            CASE 1:
+                result = num1 + num2
+                DISPLAY "Result: ", result
+            CASE 2:
+                result = num1 - num2
+                DISPLAY "Result: ", result
+            CASE 3:
+                result = num1 * num2
+                DISPLAY "Result: ", result
+            CASE 4:
+                IF num2 == 0 THEN
+                    DISPLAY "Error: Division by zero is not allowed"
+                ELSE
+                    result = num1 / num2
+                    DISPLAY "Result: ", result
+                END IF
+            DEFAULT:
+                DISPLAY "Invalid choice"
+        END SWITCH
+
+    END LOOP
+ENDUploading Pseudecode.txt…]()
+
 ---
 ## 9. Flowchart
 The flowchart is created using Flowgorithm.
