@@ -52,8 +52,11 @@ The program displays:
 The algorithm used in the program is described in:
 `pseudocode.txt`
 (https://github.com/user-attachments/files/32040155/Pseudecode.txt)
+---
 START
+
     LOOP
+        
         DISPLAY "===== CALCULATOR MENU ====="
         DISPLAY "1. Addition"
         DISPLAY "2. Subtraction"
@@ -61,12 +64,13 @@ START
         DISPLAY "4. Division"
         DISPLAY "5. Exit"
         DISPLAY "Enter your choice: "
+        
         INPUT choice
         IF choice == 5 THEN
             DISPLAY "Exiting program..."
             BREAK
         END IF
-
+        
         IF choice < 1 OR choice > 5 THEN
             DISPLAY "Invalid choice, please try again."
             CONTINUE
