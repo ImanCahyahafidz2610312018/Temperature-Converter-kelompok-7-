@@ -62,7 +62,6 @@ START
         DISPLAY "5. Exit"
         DISPLAY "Enter your choice: "
         INPUT choice
-
         IF choice == 5 THEN
             DISPLAY "Exiting program..."
             BREAK
