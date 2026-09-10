@@ -1,8 +1,8 @@
 KELOMPOK 7
 # Mini Programming Project
 ## 1. Group Information
-**Class:** A/B/C/D
-**Group:** 1
+**Class:** A
+**Group:** 7
 ### Group Members
 | No. | Name | Student ID | Role |
 |---|---|---|---|
@@ -13,7 +13,7 @@ KELOMPOK 7
 | 5 | Raisyah Nur Alysa | 2610312009 | Testing & Documentation |
 ---
 ## 2. Project Title
-Temperature Converter
+Simple Calculator with Menu
 ---
 ## 3. Project Description
 The Temperature Converter is a mini application designed to convert temperature values between different measurement scales Celsius, Fahrenheit, and Kelvin. The program allows users to input a temperature value along with its original unit, then automatically calculates and displays the equivalent value in the other unit selected. This project demonstrates the practical application of basic programming concepts such as input handling, arithmetic operations, conditional logic, and (if applicable) simple user interface design. It serves as an introductory exercise in building functional, real-world tools using fundamental programming skills.
