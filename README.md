@@ -13,7 +13,7 @@ KELOMPOK 7
 | 5 | Raisyah Nur Alysa | 2610312009 | Testing & Documentation |
 ---
 ## 2. Project Title
-Number Guessing Game
+Temperature Converter
 ---
 ## 3. Project Description
 This program is a simple game in which the player must guess a number
