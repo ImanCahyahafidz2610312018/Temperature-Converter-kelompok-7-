@@ -16,7 +16,7 @@ KELOMPOK 7
 Simple Calculator with Menu
 ---
 ## 3. Project Description
-The Temperature Converter is a mini application designed to convert temperature values between different measurement scales Celsius, Fahrenheit, and Kelvin. The program allows users to input a temperature value along with its original unit, then automatically calculates and displays the equivalent value in the other unit selected. This project demonstrates the practical application of basic programming concepts such as input handling, arithmetic operations, conditional logic, and (if applicable) simple user interface design. It serves as an introductory exercise in building functional, real-world tools using fundamental programming skills.
+Simple Calculator with Menu is a simple calculator program that allows users to perform basic mathematical operations, namely addition, subtraction, multiplication, and division. This program displays an operation option menu, then asks the user to enter two numbers to be calculated according to the selected operation. The program will continue to run repeatedly (looping) until the user selects the Exit option to exit. This project also implements error handling (error handling) especially for the case of division by zero, so that the program does not stop suddenly (crash) when the error occurs. Through this project, programming concepts such as switch structure, arithmetic operator, branching (if), and looping are applied directly in a functional program.
 ## 4. Objectives
 This project is designed to apply the following programming concepts:
 - Variables
