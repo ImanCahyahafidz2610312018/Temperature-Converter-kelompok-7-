@@ -1,4 +1,4 @@
-[Pseudecode.txt](https://github.com/user-attachments/files/32040155/Pseudecode.txt)KELOMPOK 7
+KELOMPOK 7
 # Mini Programming Project
 ## 1. Group Information
 **Class:** A
@@ -51,7 +51,8 @@ The program displays:
 ## 8. Algorithm
 The algorithm used in the program is described in:
 `pseudocode.txt`
-[START
+(https://github.com/user-attachments/files/32040155/Pseudecode.txt)
+START
     LOOP
         DISPLAY "===== CALCULATOR MENU ====="
         DISPLAY "1. Addition"
@@ -99,8 +100,8 @@ The algorithm used in the program is described in:
         END SWITCH
 
     END LOOP
-ENDUploading Pseudecode.txt…]()
-
+END 
+Uploading Pseudecode.txt…]()
 ---
 ## 9. Flowchart
 The flowchart is created using Flowgorithm.
