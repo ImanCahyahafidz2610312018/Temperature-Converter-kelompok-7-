@@ -6,11 +6,11 @@ KELOMPOK 7
 ### Group Members
 | No. | Name | Student ID | Role |
 |---|---|---|---|
-| 1 | Student 1 | XXXXX | Project Coordinator |
-| 2 | Student 2 | XXXXX | Algorithm |
-| 3 | Student 3 | XXXXX | Flowchart |
-| 4 | Student 4 | XXXXX | JavaScript |
-| 5 | Student 5 | XXXXX | Testing & Documentation |
+| 1 | Iman Cahyahafidz | 2610312018 | Project Coordinator |
+| 2 | Keisha Athalia Junita | 2610312017 | Algorithm |
+| 3 | Nazheera ’Adlyn | 2610312031 | Flowchart |
+| 4 | Meyla Sonya | 2610312022 | JavaScript |
+| 5 | Raisyah Nur Alysa | 2610312009 | Testing & Documentation |
 ---
 ## 2. Project Title
 Number Guessing Game
