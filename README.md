@@ -53,61 +53,57 @@ The program displays:
 ---
 ## 8. Algorithm
 The algorithm used in the program is described in:
-`pseudocode.txt`
-(https://github.com/user-attachments/files/32040155/Pseudecode.txt)
+[pseudocode.txt](https://github.com/user-attachments/files/32087233/pseudocode.txt)
 
----
-START
-
-    LOOP
-        
-        DISPLAY "===== CALCULATOR MENU ====="
-        DISPLAY "1. Addition"
-        DISPLAY "2. Subtraction"
-        DISPLAY "3. Multiplication"
-        DISPLAY "4. Division"
-        DISPLAY "5. Exit"
-        DISPLAY "Enter your choice: "
-        
-        INPUT choice
-        IF choice == 5 THEN
-            DISPLAY "Exiting program..."
-            BREAK
-        END IF
-        
-        IF choice < 1 OR choice > 5 THEN
-            DISPLAY "Invalid choice, please try again."
-            CONTINUE
-        END IF
-
-        DISPLAY "Enter first number: "
-        INPUT num1
-        DISPLAY "Enter second number: "
-        INPUT num2
-
-        SWITCH choice
-            CASE 1:
-                result = num1 + num2
-                DISPLAY "Result: ", result
-            CASE 2:
-                result = num1 - num2
-                DISPLAY "Result: ", result
-            CASE 3:
-                result = num1 * num2
-                DISPLAY "Result: ", result
-            CASE 4:
-                IF num2 == 0 THEN
-                    DISPLAY "Error: Division by zero is not allowed"
-                ELSE
-                    result = num1 / num2
+    START
+        LOOP
+            DISPLAY "===== CALCULATOR MENU ====="
+            DISPLAY "1. Addition"
+            DISPLAY "2. Subtraction"
+            DISPLAY "3. Multiplication"
+            DISPLAY "4. Division"
+            DISPLAY "5. Exit"
+            DISPLAY "Enter your choice: "
+            INPUT choice
+    
+            IF choice == 5 THEN
+                DISPLAY "Exiting program..."
+                BREAK
+            END IF
+    
+            IF choice < 1 OR choice > 5 THEN
+                DISPLAY "Invalid choice, please try again."
+                CONTINUE
+            END IF
+    
+            DISPLAY "Enter first number: "
+            INPUT num1
+            DISPLAY "Enter second number: "
+            INPUT num2
+    
+            SWITCH choice
+                CASE 1:
+                    result = num1 + num2
                     DISPLAY "Result: ", result
-                END IF
-            DEFAULT:
-                DISPLAY "Invalid choice"
-        END SWITCH
-
-    END LOOP
-END 
+                CASE 2:
+                    result = num1 - num2
+                    DISPLAY "Result: ", result
+                CASE 3:
+                    result = num1 * num2
+                    DISPLAY "Result: ", result
+                CASE 4:
+                    IF num2 == 0 THEN
+                        DISPLAY "Error: Division by zero is not allowed"
+                    ELSE
+                        result = num1 / num2
+                        DISPLAY "Result: ", result
+                    END IF
+                DEFAULT:
+                    DISPLAY "Invalid choice"
+            END SWITCH
+    
+        END LOOP
+    END
 
 ---
 ## 9. Flowchart
