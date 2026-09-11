@@ -54,6 +54,7 @@ The program displays:
 ## 8. Algorithm
 The algorithm used in the program is described in:
 [pseudocode.txt](https://github.com/user-attachments/files/32087233/pseudocode.txt)
+---
 
     START
         LOOP
