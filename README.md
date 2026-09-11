@@ -14,9 +14,11 @@ KELOMPOK 7
 ---
 ## 2. Project Title
 Simple Calculator with Menu
+
 ---
 ## 3. Project Description
-Simple Calculator with Menu is a simple calculator program that allows users to perform basic mathematical operations, namely addition, subtraction, multiplication, and division. This program displays an operation option menu, then asks the user to enter two numbers to be calculated according to the selected operation. The program will continue to run repeatedly (looping) until the user selects the Exit option to exit. This project also implements error handling (error handling) especially for the case of division by zero, so that the program does not stop suddenly (crash) when the error occurs. Through this project, programming concepts such as switch structure, arithmetic operator, branching (if), and looping are applied directly in a functional program.
+This project is a simple menu-based calculator program that allows users to perform basic arithmetic operations, including addition, subtraction, multiplication, and division. The program displays a menu, accepts the user's choice and two numbers, performs the selected calculation, and displays the result. It also handles invalid operations such as division by zero, and keeps running in a loop until the user chooses to exit.
+
 ---
 ## 4. Objectives
 This project is designed to apply the following programming concepts:
@@ -30,17 +32,18 @@ This project is designed to apply the following programming concepts:
 ---
 ## 5. Input
 The program receives:
-- The temperature value input by the user
-- The original unit (Celsius, Fahrenheit, or Kelvin)
-- The target unit for conversion
+- The user's menu choice (1–5)
+- The first number for calculation
+- The second number for calculation
 ---
 ## 6. Process
-The program compares the player's guess with the target number.
-If the guess is:
-- Too high → the program provides a "too high" message
-- Too low → the program provides a "too low" message
-- Correct → the player wins
----
+The program checks the selected menu option and performs the corresponding operation:
+- If the choice is Addition → the program adds the two numbers
+- If the choice is Subtraction → the program subtracts the second number from the first
+- If the choice is Multiplication → the program multiplies the two numbers
+- If the choice is Division → the program divides the first number by the second, and checks if the second number is zero to prevent division error
+- If the choice is Exit → the program stops running
+
 ## 7. Output
 The program displays:
 - The result of each guess
@@ -52,6 +55,7 @@ The program displays:
 The algorithm used in the program is described in:
 `pseudocode.txt`
 (https://github.com/user-attachments/files/32040155/Pseudecode.txt)
+
 ---
 START
 
@@ -104,7 +108,7 @@ START
 
     END LOOP
 END 
-Uploading Pseudecode.txt…]()
+
 ---
 ## 9. Flowchart
 The flowchart is created using Flowgorithm.
