@@ -38,18 +38,18 @@ The program receives:
 ---
 ## 6. Process
 The program checks the selected menu option and performs the corresponding operation:
-- If the choice is Addition → the program adds the two numbers
-- If the choice is Subtraction → the program subtracts the second number from the first
-- If the choice is Multiplication → the program multiplies the two numbers
-- If the choice is Division → the program divides the first number by the second, and checks if the second number is zero to prevent division error
-- If the choice is Exit → the program stops running
+- If the choice is Addition : the program adds the two numbers
+- If the choice is Subtraction : the program subtracts the second number from the first
+- If the choice is Multiplication : the program multiplies the two numbers
+- If the choice is Division : the program divides the first number by the second, and checks if the second number is zero to prevent division error
+- If the choice is Exit : the program stops running
 
 ## 7. Output
 The program displays:
-- The result of each guess
-- Hints or feedback
-- The number of remaining attempts
-- The final game status (win/loss)
+- The calculator menu
+- The result of the selected calculation
+- An error message if division by zero is attempted
+- The program continues showing the menu until the user selects Exit
 ---
 ## 8. Algorithm
 The algorithm used in the program is described in:
