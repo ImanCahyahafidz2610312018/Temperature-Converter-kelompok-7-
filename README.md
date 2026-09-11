@@ -1,3 +1,4 @@
+
 KELOMPOK 7
 # Mini Programming Project
 ## 1. Group Information
@@ -110,7 +111,90 @@ The algorithm used in the program is described in:
 ## 9. Flowchart
 The flowchart is created using Flowgorithm.
 File:
-`flowchart.fprg`
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="flowgorithm simple calculator"/>
+        <attribute name="authors" value="hpind"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-11 07:45:09 PM"/>
+        <attribute name="created" value="aHBpbmQ7RVZBOzIwMjYtMDktMTE7MDY6NTA6MDEgUE07MjAyOA=="/>
+        <attribute name="edited" value="aHBpbmQ7RVZBOzIwMjYtMDktMTE7MDc6NDU6MDkgUE07MTsyMTQ5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="pilihan" type="Integer" array="False" size=""/>
+            <declare name="angka1, angka2" type="Real" array="False" size=""/>
+            <declare name="hasil" type="Real" array="False" size=""/>
+            <assign variable="pilihan" expression="0"/>
+            <while expression="pilihan != 5">
+                <output expression="&quot;=== kalkulator sederhana ===&quot;" newline="True"/>
+                <output expression="&quot;1. penjumlahan&quot;" newline="True"/>
+                <output expression="&quot;2. pengurangan&quot;" newline="True"/>
+                <output expression="&quot;3. perkalian&quot;" newline="True"/>
+                <output expression="&quot;4. pembagian&quot;" newline="True"/>
+                <output expression="&quot;5. keluar&quot;" newline="True"/>
+                <input variable="pilihan"/>
+                <if expression="pilihan == 1">
+                    <then>
+                        <input variable="angka1"/>
+                        <input variable="angka2"/>
+                        <assign variable="hasil" expression="angka1 + angka2"/>
+                        <output expression="&quot;hasil: &quot; &amp; hasil" newline="True"/>
+                    </then>
+                    <else>
+                        <if expression="pilihan == 2">
+                            <then>
+                                <input variable="angka1"/>
+                                <input variable="angka2"/>
+                                <assign variable="hasil" expression="angka1 - angka2"/>
+                                <output expression="&quot;hasil: &quot; &amp; hasil" newline="True"/>
+                            </then>
+                            <else>
+                                <if expression="pilihan == 3">
+                                    <then>
+                                        <input variable="angka1"/>
+                                        <input variable="angka2"/>
+                                        <assign variable="hasil" expression="angka1 * angka2"/>
+                                        <output expression="&quot;hasil: &quot; &amp; hasil" newline="True"/>
+                                    </then>
+                                    <else>
+                                        <if expression="pilihan == 4">
+                                            <then>
+                                                <input variable="angka1"/>
+                                                <input variable="angka2"/>
+                                                <if expression="angka2 == 0">
+                                                    <then>
+                                                        <output expression="&quot;error: pembagian dengan 0 tidak diperbolehkan&quot;" newline="True"/>
+                                                    </then>
+                                                    <else>
+                                                        <assign variable="hasil" expression="angka1 / angka2"/>
+                                                        <output expression="&quot;hasil: &quot; &amp; hasil" newline="True"/>
+                                                    </else>
+                                                </if>
+                                            </then>
+                                            <else>
+                                                <if expression="pilihan == 5">
+                                                    <then>
+                                                        <output expression="&quot;terima kasih&quot;" newline="True"/>
+                                                    </then>
+                                                    <else>
+                                                        <output expression="&quot;menu tidak valid&quot;" newline="True"/>
+                                                    </else>
+                                                </if>
+                                            </else>
+                                        </if>
+                                    </else>
+                                </if>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
 ---
 ## 10. JavaScript Implementation
 The JavaScript implementation of the program is available in:
