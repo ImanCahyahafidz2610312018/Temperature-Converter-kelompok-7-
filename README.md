@@ -109,6 +109,8 @@ The algorithm used in the program is described in:
 
 ---
 ## 9. Flowchart
+The flowchart used in the program is described in:
+[flowchart.fprg] (
     The flowchart is created using Flowgorithm.
     File: <?xml version="1.0"?>
     <flowgorithm fileversion="4.2">
