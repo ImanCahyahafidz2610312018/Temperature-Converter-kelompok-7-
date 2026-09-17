@@ -54,7 +54,7 @@ The program displays:
 ---
 ## 8. Algorithm
 The algorithm used in the program is described in:
-[pseudocode.txt](https://github.com/user-attachments/files/32087233/pseudocode.txt)
+[pseudocode.txt](pseudocode.txt)
 ---
 
     START
@@ -109,10 +109,9 @@ The algorithm used in the program is described in:
 
 ---
 ## 9. Flowchart
-The flowchart used in the program is described in:
-[flowchart.fprg](https://github.com/ImanCahyahafidz2610312018/Temperature-Converter-kelompok-7-/blob/192065f97e18698abcec62ddacedba65d80e94a5/flowchart.fprg) 
-    The flowchart is created using Flowgorithm.
-    
+ The flowchart is created using Flowgorithm.
+[flowchart.fprg](flowchart.fprg) 
+---
     File: <?xml version="1.0"?>
     <flowgorithm fileversion="4.2">
         <attributes>
