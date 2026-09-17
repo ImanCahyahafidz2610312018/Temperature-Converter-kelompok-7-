@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="flowgorithm simple calculator"/>
+        <attribute name="authors" value="hpind"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-11 09:26:21 PM"/>
+        <attribute name="created" value="aHBpbmQ7RVZBOzIwMjYtMDktMTE7MDY6NTA6MDEgUE07MjAyOA=="/>
+        <attribute name="edited" value="aHBpbmQ7RVZBOzIwMjYtMDktMTE7MDk6MjY6MjEgUE07MzsyMTQ2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="choice" type="Integer" array="False" size=""/>
+            <declare name="number1, number2" type="Real" array="False" size=""/>
+            <declare name="result" type="Real" array="False" size=""/>
+            <assign variable="choice" expression="0"/>
+            <while expression="choice != 5">
+                <output expression="&quot;=== simple calculator ===&quot;" newline="True"/>
+                <output expression="&quot;1. addition&quot;" newline="True"/>
+                <output expression="&quot;2. subtraction&quot;" newline="True"/>
+                <output expression="&quot;3. multiplication&quot;" newline="True"/>
+                <output expression="&quot;4. division&quot;" newline="True"/>
+                <output expression="&quot;5. exit&quot;" newline="True"/>
+                <input variable="choice"/>
+                <if expression="choice == 1">
+                    <then>
+                        <input variable="number1"/>
+                        <input variable="number2"/>
+                        <assign variable="result" expression="number1 + number2"/>
+                        <output expression="&quot;result: &quot; &amp; result" newline="True"/>
+                    </then>
+                    <else>
+                        <if expression="choice == 2">
+                            <then>
+                                <input variable="number1"/>
+                                <input variable="number2"/>
+                                <assign variable="result" expression="number1 - number2"/>
+                                <output expression="&quot;result: &quot; &amp; result" newline="True"/>
+                            </then>
+                            <else>
+                                <if expression="choice == 3">
+                                    <then>
+                                        <input variable="number1"/>
+                                        <input variable="number2"/>
+                                        <assign variable="result" expression="number1 * number2"/>
+                                        <output expression="&quot;result: &quot; &amp; result" newline="True"/>
+                                    </then>
+                                    <else>
+                                        <if expression="choice == 4">
+                                            <then>
+                                                <input variable="number1"/>
+                                                <input variable="number2"/>
+                                                <if expression="number2 == 0">
+                                                    <then>
+                                                        <output expression="&quot;error: division by 0 is not allowed.&quot;" newline="True"/>
+                                                    </then>
+                                                    <else>
+                                                        <assign variable="result" expression="number1 / number2"/>
+                                                        <output expression="&quot;result: &quot; &amp; result" newline="True"/>
+                                                    </else>
+                                                </if>
+                                            </then>
+                                            <else>
+                                                <if expression="choice == 5">
+                                                    <then>
+                                                        <output expression="&quot;thank you&quot;" newline="True"/>
+                                                    </then>
+                                                    <else>
+                                                        <output expression="&quot;menu invalid&quot;" newline="True"/>
+                                                    </else>
+                                                </if>
+                                            </else>
+                                        </if>
+                                    </else>
+                                </if>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
