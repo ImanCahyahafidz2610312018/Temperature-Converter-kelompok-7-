@@ -51,4 +51,4 @@ Expected Output:
 "Exiting program..."
 Actual Output:
 "Exiting program..."
-Status: PASS
+Status: PASS*
